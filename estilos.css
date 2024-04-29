@@ -83,3 +83,17 @@ footer{
     }
 }
 /* Fin main Mi Cuenta */
+/* Inicio main Contacto */
+.contacto{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.mensaje{
+    margin-bottom: 60px;
+}
+#men{
+    height: 200px;
+}
+/* Fin main Contacto */
