@@ -1,129 +1,144 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 /* Inicio de Linea Superior de Ofertas */
 #barradeofertas {
-    color: rgb(255, 255, 255) !important;
-    word-spacing: 7px;
-    background-image: url(img/llamas.png);
-    background-size: cover;
-    width: 100%;
-    font-size: 14px;
+  color: rgb(255, 255, 255) !important;
+  word-spacing: 7px;
+  background-image: url(img/llamas.png);
+  background-size: cover;
+  width: 100%;
+  font-size: 14px;
 }
+
 /* Fin de Linea Superior de Ofertas */
 /* Inicio Footer */
-footer{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    width: 100%;
-    text-align: center;
-    padding: 30px;
-    font-size: 20px;
-    height: 200px;
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  height: 200px;
 }
-    .redes a {
-    color: rgb(80, 18, 95);
-    text-decoration: none;
-    font-size: 50px;
-    letter-spacing: 30px;
+
+.redes a {
+  color: rgb(80, 18, 95);
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 30px;
 }
-    .redes a:hover{
-    color: rgb(250, 250, 250);
+
+.redes a:hover {
+  color: rgb(250, 250, 250);
 }
-/* fin Footer */
+
 /* Inicio main Nosotros */
 .m-n {
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-family: "Homer Simpson UI"
+  background-color: rgb(255, 255, 255);
 }
+
+.m-n {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: "Homer Simpson UI";
+}
+
 .m-n p {
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
+
 @media only screen and (min-width: 700px) {
-    .m-n p {
-        font-size: 25px;
-    }
+  .m-n p {
+    font-size: 25px;
+  }
 }
 @media only screen and (min-width: 1200px) {
-    .m-n p {
-        font-size: 37px;
-    }
+  .m-n p {
+    font-size: 37px;
+  }
 }
 @media only screen and (max-width: 450px) {
-    .m-n p {
-        font-size: 10px;
-    }
+  .m-n p {
+    font-size: 10px;
+  }
 }
 /* Fin main Nosotros */
 /* Inicio main Mi Cuenta */
-.iniciar-sesion{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+.iniciar-sesion {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
+.crear-cuenta {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.crear-cuenta{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 @media only screen and (min-width: 1000px) {
-    .mic{
+  .mic {
     margin-top: 80px;
     margin-bottom: 80px;
     margin-left: 20%;
     margin-right: 20%;
-    }
+  }
 }
 /* Fin main Mi Cuenta */
 /* Inicio main Contacto */
-.contacto{
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 20%;
-    margin-right: 20%;
+.contacto {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-.mensaje{
-    margin-bottom: 60px;
+
+.mensaje {
+  margin-bottom: 60px;
 }
-#men{
-    height: 200px;
+
+#men {
+  height: 200px;
 }
+
 /* Fin main Contacto */
 /* Inicio main Catalogo */
-.catalogo{
-    display: grid;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    grid-template-columns: 23% 23% 23% 23%;
-    grid-column-gap: 2%;
-    grid-row-gap: 4%;
-    justify-content: center;
-    height: 1400px;
+.catalogo {
+  display: grid;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-column-gap: 2%;
+  grid-row-gap: 4%;
+  justify-content: center;
+  height: 1400px;
 }
-@media only screen and (max-width: 1250px){
-    .catalogo{
-        grid-template-columns: 30% 30% 30%;
-        margin-bottom: 800px;
-    }
+
+@media only screen and (max-width: 1250px) {
+  .catalogo {
+    grid-template-columns: 30% 30% 30%;
+    margin-bottom: 800px;
+  }
 }
-@media only screen and (max-width: 850px){
-    .catalogo{
-        grid-template-columns: 45% 45%;
-        margin-bottom: 1500px;
-    }
+@media only screen and (max-width: 850px) {
+  .catalogo {
+    grid-template-columns: 45% 45%;
+    margin-bottom: 1500px;
+  }
 }
-@media only screen and (max-width: 650px){
-    .catalogo{
-        grid-template-columns: 80%;
-        margin-bottom: 4500px;
-        }
+@media only screen and (max-width: 650px) {
+  .catalogo {
+    grid-template-columns: 80%;
+    margin-bottom: 4500px;
+  }
 }
-/* Fin main Catalogo */
+/* Fin main Catalogo *//*# sourceMappingURL=estilos.css.map */
