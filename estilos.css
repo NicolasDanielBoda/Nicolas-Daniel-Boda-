@@ -160,8 +160,16 @@ footer {
 }
 @media only screen and (max-width: 650px) {
   .catalogo {
+    grid-template-columns: 75%;
+    margin-bottom: 3380px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .catalogo {
     grid-template-columns: 94%;
-    margin-bottom: 3400px;
+    margin-bottom: 3380px;
+    margin-top: 10px;
   }
 }
 /* Fin main Catalogo *//*# sourceMappingURL=estilos.css.map */
