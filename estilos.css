@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 /* Inicio de Linea Superior de Ofertas */
 #barradeofertas {
@@ -38,11 +37,12 @@ footer{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    font-family: "Homer Simpson UI"
 }
 .m-n p {
     padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 @media only screen and (min-width: 700px) {
     .m-n p {
@@ -51,7 +51,7 @@ footer{
 }
 @media only screen and (min-width: 1200px) {
     .m-n p {
-        font-size: 35px;
+        font-size: 37px;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -97,3 +97,37 @@ footer{
     height: 200px;
 }
 /* Fin main Contacto */
+/* Inicio main Catalogo */
+.catalogo{
+    display: grid;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2%;
+    grid-row-gap: 4%;
+    justify-content: center;
+    height: 1400px;
+}
+.catalogo1 {
+    border-color: black;
+    border-style: solid;
+}
+@media only screen and (max-width: 1250px){
+    .catalogo{
+        grid-template-columns: 30% 30% 30%;
+        margin-bottom: 800px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .catalogo{
+        grid-template-columns: 45% 45%;
+        margin-bottom: 1500px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .catalogo{
+        grid-template-columns: 80%;
+        margin-bottom: 4500px;
+        }
+}
+/* Fin main Catalogo */
